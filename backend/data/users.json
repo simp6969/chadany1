@@ -1,0 +1,20 @@
+[
+  {
+    "username": "ariuka",
+    "age": 14,
+    "uid": 7862,
+    "password": 6969,
+    "chats": [{ "value": "hello, its me ariuka" }, { "value": "chao i say" }]
+  },
+  {
+    "username": "hutao",
+    "password": 6969,
+    "uid": 5292,
+    "age": 18,
+    "chats": [
+      { "value": "hello im the hu tao" },
+      { "value": "ik right?" },
+      { "value": "yup fr2" }
+    ]
+  }
+]
