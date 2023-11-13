@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 10px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f1f4ffff;
+  overflow: hidden;
+}
+.user-icon {
+  height: 85%;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #a2a2a1ff;
+  border-radius: 10px;
+}
+.userimg {
+  margin-top: 10px;
+  height: 70px;
+  border-radius: 50%;
+  transition: all;
+  transition: 200ms;
+  border: 1px solid black;
+}
+.userimg:hover {
+  scale: 1.1;
+}
+.header {
+  width: 90vw;
+  font-size: 40px;
+  font-family: Poppins;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.messages-container {
+  margin: 40px;
+  height: 77%;
+  width: 86%;
+  background-color: #a2a2a1ff;
+  border-radius: 40px;
+  overflow-y: scroll;
+}
+
+.messages {
+  height: 90%;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.user1 {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.user2 {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.content-text1 {
+  width: auto;
+  height: auto;
+  background-color: #f1f4ffff;
+  border-radius: 40px;
+  padding: 10px;
+}
+.content-text2 {
+  width: auto;
+  height: auto;
+  background-color: #f1f4ffff;
+  border-radius: 40px;
+  padding: 10px;
+}
+.user-message-img {
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.userInfo {
+  width: 70px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+}
+.content {
+  display: flex;
+  width: 100vw;
+  margin: 30px;
+  height: 100%;
+}
+.sendMessage {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.daInput {
+  height: 50px;
+  width: 50%;
+  background-color: #f1f4ffff;
+  padding: 15px;
+  border: 0;
+  border-radius: 20px;
+}
+.info {
+  height: 70px;
+  width: 70px;
+  transition: all;
+  transition-duration: 200ms;
+}
+.info:hover {
+  scale: 1.1;
+}
+.sendButt {
+  height: 50px;
+  width: 60px;
+  border: 2px solid #f1f4ffff;
+  border-radius: 10px;
+  background-color: #f1f4ffff;
+}
+
+.message-container-for-fetch-and-map-with-reversed-user-message-img {
+  display: flex;
+  flex-direction: row-reverse;
+}
